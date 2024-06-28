@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200. .1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Notável", sans-serif;
+    animation: fadeIn 3s forwards;
+    color: white;
+    animation: fadeIn 3s forwards;
+    opacity: 0;
+    background-image: url(./img/background-cursos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.infor-cursos {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.botao-voltar-cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}    
+    
